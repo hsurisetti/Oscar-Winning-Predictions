@@ -60,7 +60,7 @@ Will it be Top Gun: Maverick, Elvis, or the long-awaited sequel Avatar: The Way 
 ## Machine Learning Model 
 For this project, we used supervised machine learning to help us understand the relationship between one specific feature (Award Winnner) with multiple features (such as movie length, genre, and average rating). In this case, we wanted to learn about specific features that most influence award winners so we can better predict future outcomes. The machine learning model used the SciKit-Learn to run a Logistic Regression and addressed the class imbalance using random over/under sampling, SMOTEEN, or Clustered Random Undersampling modules. Additionally, using artificial neural networks we were able to recognize patterns and features in input data to provide a clear quantitative output that led us to better prediction results. 
 
-Our accuracy scores, confusion matrix, and metrics scores for each model can be viewed here: ([MLM](https://github.com/shef1109/Oscar-Winning-Predictions/tree/main/MLM))
+Our accuracy scores, confusion matrix, and metrics scores for each model can be viewed here: ([MLM](https://github.com/hsurisetti/Oscar-Winning-Predictions/tree/main/MLM))
 
 
 
@@ -72,10 +72,10 @@ The input files were merged together and duplicate data removed. Null data was h
 Four PostgreSQL tables were created to store the data for the project. The [ERD](https://github.com/shef1109/Oscar-Winning-Predictions/blob/main/ERD/Oscar-Winning-Production_ERD.png) shows the relationship between the tables.
 
 Tables created to store data :
-* [Movies](https://github.com/shef1109/Oscar-Winning-Predictions/blob/main/ERD/movies_table.png) - this table has details pertaining to each movie - the year it was released, the genre, the producers and actors etc.
-* [Movie Ratings](https://github.com/shef1109/Oscar-Winning-Predictions/blob/main/ERD/movie_ratings.png) - this table stores the IMDB rating and the Rotten Tomato rating along with the user votes
-* [Movie Revenue](https://github.com/shef1109/Oscar-Winning-Predictions/blob/main/ERD/movie_revenue.png) - this table stores the gross income of each movie along with the production budget
-* [Oscar Details](https://github.com/shef1109/Oscar-Winning-Predictions/blob/main/ERD/oscar_details.png) - this table stores information about the year a movie was selected for the oscars and whether it won or not.
+* [Movies](https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/ERD/movies_table.png) - this table has details pertaining to each movie - the year it was released, the genre, the producers and actors etc.
+* [Movie Ratings](https://github.com/hsuriseti/Oscar-Winning-Predictions/blob/main/ERD/movie_ratings.png) - this table stores the IMDB rating and the Rotten Tomato rating along with the user votes
+* [Movie Revenue](https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/ERD/movie_revenue.png) - this table stores the gross income of each movie along with the production budget
+* [Oscar Details](https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/ERD/oscar_details.png) - this table stores information about the year a movie was selected for the oscars and whether it won or not.
 
 ### Exploratory Analysis and Design :
 The puprose of exploratory analysis is to investigate the relationship between various movie attributes and their chances of winning an oscar award. By analysing the dataset, we aim to identify the patterns and insights that can help us make predictions  much better.
@@ -119,7 +119,7 @@ The puprose of exploratory analysis is to investigate the relationship between v
   Created a bar plot to represent this.
 
 The Results of all the plots are stored in this location : 
-[EDA Results](https://github.com/shef1109/Oscar-Winning-Predictions/tree/main/EDA/Outputs)
+[EDA Results](https://github.com/hsurisetti/Oscar-Winning-Predictions/tree/main/EDA/Outputs)
 
 ### Machine Learning
 - Sci-Kit Learn
@@ -133,7 +133,7 @@ The Results of all the plots are stored in this location :
 ### Dashboard
 - Tableau
 - Working on Visualization with Tableau.
-- Dashboard Link: [Final Project Presentation](https://shef1109.github.io/Oscar-Winning-Predictions/viz/oscar%20dashboard/)
+- Dashboard Link: [Final Project Presentation](https://hsurisetti.github.io/Oscar-Winning-Predictions/viz/oscar%20dashboard/)
 
 ## Communication Protocols
 - Group will communicate through a group Slack channel and WhatsApp to ask questions and share project updates on a regular basis.
