@@ -117,6 +117,24 @@ The puprose of exploratory analysis is to investigate the relationship between v
 
 - Percentage of Movies with good average ratings that won the oscars Vs that did not win <br>
   Created a bar plot to represent this.
+  
+#### Some Outputs of the EDA :
+<div style="display: flex; justify-content: space-between;">
+ <img src="https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/popular_genre.png"  width=400>
+ <img src = "https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/correation_matrix.png" width=400>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<img src="https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/Oscar%20Nominations_Wins.png" width=400>
+<img src="https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/percentage_movies_good_rating_oscar.png" width=400>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<img src="https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/correlation_revenue_matrix.png" width=400>
+<img src="https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/productionbudget_oscarwinner.png" width=400>
+</div>
+<div style="display: flex; justify-content: space-between;">
+<img src="https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/runtimeVsvotesCount.png" width=400>
+<img src="https://github.com/hsurisetti/Oscar-Winning-Predictions/blob/main/EDA/Outputs/runtimeVsus_gross_income.png" width=400>
+</div>
 
 The Results of all the plots are stored in this location : 
 [EDA Results](https://github.com/hsurisetti/Oscar-Winning-Predictions/tree/main/EDA/Outputs)
